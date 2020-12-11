@@ -1,12 +1,3 @@
-local Owner = {}
-local HeadAdmin = {}
-local CommunityManager = {}
-local Developer = {}
-local Admin = {}
-local ServerSupporter = {}
-local ServerHelper = {}
-local ELAS = {} 
-
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 AddEventHandler('chatMessage', function(Source, Name, Msg)
