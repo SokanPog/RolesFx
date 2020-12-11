@@ -8,7 +8,7 @@ AddEventHandler('chatMessage', function(Source, Name, Msg)
         table.remove(args, 1)
     else    
 		local xPlayer = ESX.GetPlayerFromId(Source)	
-        local player = GetPlayerIdentifiers(Source)[1]
+        local paikths = GetPlayerIdentifiers(Source)[1]
 		if xPlayer.job.name == 'police' then 
 			TriggerClientEvent('chatMessage', -1, "^*^5 ΕΛ.ΑΣ ^r| ^*^0 "..Name..": " , { 30, 30, 255 }, Msg)
 			return
